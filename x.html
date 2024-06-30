@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f06, #4a90e2);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 4rem;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff80ff, 0 0 30px #ff80ff, 0 0 40px #ff80ff, 0 0 50px #ff80ff, 0 0 60px #ff80ff, 0 0 70px #ff80ff;
+            }
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff80ff, 0 0 40px #ff80ff, 0 0 50px #ff80ff, 0 0 60px #ff80ff, 0 0 70px #ff80ff, 0 0 80px #ff80ff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to My Cool Website</h1>
+        <p>This is a simple example with a glowing text effect and gradient background.</p>
+    </div>
+</body>
+</html>
